@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background-image: url('https://img.freepik.com/premium-photo/old-traditional-antique-cast-iron-tea-kettle-illustration-design_1277546-6086.jpg'); /* Slightly transparent white for blurred background effect */
+    background-image: url('background.png'); /* Slightly transparent white for blurred background effect */
     background-repeat: no-repeat;
     /* filter:opacity(0.5); */
     background-size: cover;
@@ -30,23 +30,18 @@ header {
 }
 
 header h1 {
-    color: #2e8b57; /* Bold green */
+    color: #337958; /* Bold green */
     margin-bottom: 10px;
     font-size: 1.8em;
 }
 
-.logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: #2e8b57; /* Dark green */
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 0.9em;
-    margin: 0 auto;
+.logo .logo-circle img{
+    scale: 0.5;
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: darken;
+    margin-top: -50%;
+    /* margin-bottom: -40%; */
 }
 
 .logo-circle {
@@ -62,7 +57,7 @@ header h1 {
 
 .menu-button {
     background-color: #f0fff0; /* Creamy */
-    color: #2e8b57; /* Green */
+    color: #337958; /* Green */
     border: none;
     border-radius: 8px;
     padding: 10px 15px;
@@ -93,7 +88,7 @@ header h1 {
 
 .address i {
     margin-right: 5px;
-    color: #2e8b57; /* Green */
+    color: #337958; /* Green */
 }
 
 .social-icons {
@@ -102,7 +97,7 @@ header h1 {
 }
 
 .social-button {
-    background-color: #2e8b57; /* Green */
+    background-color: #337958; /* Green */
     color: white;
     border: none;
     border-radius: 50%;

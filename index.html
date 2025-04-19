@@ -6,24 +6,24 @@
     <title>Jalaram Tea Center</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
     <div class="container" >
         <header>
-            <h1>JALARAM TEA CENTER</h1>
             <div class="logo">
                 <div class="logo-circle">
-                    JALARAM TEA CENTER
+                    <img src="logo.png">
                 </div>
             </div>
         </header>
 
         <nav class="menu">
-            <button class="menu-button">
+            <button class="menu-button" onclick="teamenu()">
                 <i class="fa-solid fa-mug-hot"></i>
                 <span>TEA</span>
             </button>
-            <button class="menu-button">
+            <button class="menu-button" onclick="snackmenu()">
                 <i class="fa-solid fa-utensil-spoon"></i>
                 <span>SNACKS</span>
             </button>
@@ -36,17 +36,39 @@
                 <span>Shop No. - 7 , Hariom Mill, Surat – 395004</span>
             </div>
             <div class="social-icons">
-                <button class="social-button whatsapp">
+                <button class="social-button whatsapp" onclick="whatsapp()">
                     <i class="fa-brands fa-whatsapp"></i>
                 </button>
-                <button class="social-button instagram">
+                <button class="social-button instagram" onclick="instagram()">
                     <i class="fa-brands fa-instagram"></i>
                 </button>
-                <button class="social-button maps">
+                <button class="social-button maps" onclick="maps()">
                     <i class="fa-solid fa-map-location-dot"></i>
                 </button>
             </div>
         </footer>
     </div>
+
 </body>
+    <script>
+        function teamenu(){
+            window.location.href = "https://drive.google.com/file/d/1jZ_RzfIqg4buGUbuRncxSFdT0C6hGl1c/view?usp=sharing"
+        }
+
+        function snackmenu(){
+            window.location.href = "https://drive.google.com/file/d/1oO708HQlfhjkWz3er8oePopTNS1Vafi3/view?usp=sharing"
+        }
+
+        function whatsapp(){
+            window.location.href = "https://api.whatsapp.com/send?phone=919574179957&text=Hi%20%2C%20I%20am%20%22Your%20Name%22https://api.whatsapp.com/send?phone=919574179957&text=Hi%20%2C%20I%20am%20%22Your%20Name%22"
+        }
+
+        function instagram(){
+            window.location.href = "https://www.instagram.com/mr_vinod_patel1812/"
+        }
+
+        function maps(){
+            window.location.href = "https://maps.app.goo.gl/fibMRrkno3iKPi8f9"
+        }
+    </script>
 </html>
